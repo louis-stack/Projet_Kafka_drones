@@ -21,6 +21,7 @@ object droneRapport{
 
   def randomString(length: Int) = {
     // src : https://alvinalexander.com/scala/creating-random-strings-in-scala/  val random = new scala.util.Random
+    val random = scala.util.Random
     val sb = new StringBuilder
     for (i <- 1 to length) {
       sb.append(random.nextPrintableChar)
