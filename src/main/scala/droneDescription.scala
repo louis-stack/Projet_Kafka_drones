@@ -19,7 +19,14 @@ object droneRapport{
     droneDescription(id, latitude, longitude, idCitoyen, scorePaixCitoyen, listCitoyen, motsCitoyens)
   }
 
-
+  def randomString(length: Int) = {
+    // src : https://alvinalexander.com/scala/creating-random-strings-in-scala/  val random = new scala.util.Random
+    val sb = new StringBuilder
+    for (i <- 1 to length) {
+      sb.append(random.nextPrintableChar)
+    }
+    sb.toString
+   }
 
   def droneToJson(drone: droneDescription): String = {
 
