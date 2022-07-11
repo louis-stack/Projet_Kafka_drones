@@ -1,3 +1,5 @@
+package Main1
+
 case class Citoyen(idCitoyen: String, ScorePaixCitoyen: Int){
   val id: String = idCitoyen
   val scoreComportement: Int = ScorePaixCitoyen
