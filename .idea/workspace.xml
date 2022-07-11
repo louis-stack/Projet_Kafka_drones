@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddaac90a-2e61-44fc-a518-2048a7b6d493" name="Changes" comment="modifier randomString">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/Main1/Producer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Main1/Producer.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Main1/droneDescription.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Main1/droneDescription.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657523178483</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="modifier randomString">
+      <created>1657526727495</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657526727495</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
