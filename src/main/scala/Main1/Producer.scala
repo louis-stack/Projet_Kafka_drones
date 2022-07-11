@@ -8,7 +8,7 @@ import java.util.Properties
 object Producer extends App {
 
   var props: Properties = new Properties()
-  props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092")
+  props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092,88.163.185.58:3000")
   props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, classOf[StringSerializer])
   props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, classOf[StringSerializer])
 
